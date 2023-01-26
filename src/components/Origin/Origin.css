@@ -1,0 +1,10 @@
+
+.travel-end-point__origin {
+    background: #E2E2E2;
+}
+
+.arrow {
+    position: absolute;
+    right: -0.9rem;
+    z-index: 2;
+}

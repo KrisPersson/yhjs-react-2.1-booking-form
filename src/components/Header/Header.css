@@ -1,0 +1,11 @@
+
+header {
+    background: #CECECE;
+    grid-row: 1 / span 1;
+    grid-column: 1 / -1;
+}
+
+h1 {
+    font-size: 1.75rem;
+    color: #000;
+}

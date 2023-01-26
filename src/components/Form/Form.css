@@ -1,0 +1,140 @@
+form {
+    font-family: "PT Sans";
+    color: #000;
+    grid-column: 1 / -1;
+
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: space-between;
+    row-gap: 0.3rem;
+    padding: 1rem; 
+}
+
+input[type='radio']:after {
+    width: 13px;
+    height: 13px;
+    border-radius: 13px;
+    top: -2px;
+    left: -1px;
+    position: relative;
+    background-color: #fff;
+    content: '';
+    display: inline-block;
+    visibility: visible;
+    border: 1.5px solid #fff;
+    outline: 1px solid #000;
+}
+
+input[type='radio']:checked:after {
+    width: 13px;
+    height: 13px;
+    border-radius: 13px;
+    top: -2px;
+    left: -1px;
+    position: relative;
+    background-color: #000;
+    content: '';
+    display: inline-block;
+    visibility: visible;
+    border: 1.5px solid #fff;
+    outline: 1px solid #000;
+}
+
+.form__radio {
+    color: black;
+    background: black;
+    margin-right: 0.5rem;
+    transform: translateY(-2px);
+    cursor: pointer;
+}
+
+
+
+label {
+    display: flex;
+    align-items: flex-start;
+
+    text-align: left;
+    flex-flow: column nowrap;
+    font-size: 0.75rem;
+    width: 100%;
+    
+
+}
+.label-radio {
+    font-size: 0.75rem;
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    width: 50%;
+}
+
+label select {
+    width: 8.875rem;
+    height: 2.5rem;
+    border-radius: 4px;
+    font-size: 1rem;
+    padding: 0.5rem;
+    font-family: 'PT Sans';
+    border: 1px solid #000;
+    cursor: pointer;
+}
+
+
+
+.form__klass {
+    display: flex;
+    width: 100%;
+    height: 2rem;
+    justify-content: space-evenly;
+    
+}
+
+.label-short {
+    /* width: 50%; */
+    width: 8.875rem;
+    height: 3.9rem;
+}
+
+input[type="text"] {
+    width: 100%;
+    height: 2.5rem;
+    border-radius: 4px;
+    font-size: 1rem;
+    padding: 0.5rem;
+    font-family: 'PT Sans';
+    border: 1px solid #000;
+}
+
+.accept-terms {
+    flex-flow: row nowrap;
+    height: 1.5rem;
+}
+
+form button {
+    background-color: #000;
+    color: #fff;
+    width: 100%;
+    height: 3.5rem;
+    border: none;
+    border-radius: 4px;
+    font-family: 'PT Sans';
+    font-size: 1.125rem;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: rgb(45, 45, 45);
+
+}
+
+input[type='checkbox'] {
+    transform: translateY(1px);
+    width: 1rem;
+    height: 1rem;
+    border: 1px solid #000;
+    margin: 0.1rem 0.5rem 0 0;
+    cursor: pointer;
+}
